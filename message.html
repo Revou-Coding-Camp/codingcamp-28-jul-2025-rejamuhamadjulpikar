@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Us - My Website</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">My Website</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/ourprofile.html">Our profile</a></li>
+                <li><a href="/Portofolio.html">portofolio</a></li>
+                <li><a href="/message.html">message us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-container">
+        <section class="message-section">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p>Silakan isi formulir di bawah ini untuk mengirim pesan kepada kami. Kami akan merespon secepat mungkin.</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subjek:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan Anda:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Created by Rejamuhamadjulpikar</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
