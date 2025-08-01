@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class=""></div>
+        <nav>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our profile</a></li>
+                <li><a href="#">portofolio</a></li>
+                <li><a href="#">message us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-container>
+    <section class="hero">
+        <h1>Hi everyone, welcome to my website</h1>
+         <p><span id="currenttime">Fri august 2025 </span></p>
+        <div class="hero-image"><img src="/asset/images.png" alt="bg"></div>
+    </section>
+
+    <section class="headquarter-section">
+        <h2>Our headquarter</h2>
+        <div class="headquarter-cards">
+            <div class="card">
+                <div class="circle"></div>
+                <p>jakarta</p>
+            </div>
+            <div class="card">
+                <div class="circle"></div>
+                <p>bandung</p>
+            </div>
+            <div class="card">
+                <div class="circle"></div>
+                <p>surabaya</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="message-us-section">
+        <h2>Message us</h2>
+        <div class="form-container">
+            <form id="messageform">
+                <div class="form-group">
+                    <label for="nama">Nama  :</label>
+                    <input type="text" id="nama" name="nama" placeholder="nama">
+                </div>
+                    <div class="form-group">
+                    <label for="tglLahir">Tanggal lahir :</label>
+                    <input type="date" id="tglLahir" name="tglLahir">
+                </div>
+                <div class="form-group">
+                    <label for="jenis kelamin">jenis kelamin    :</label>
+                    <label class="radio-label">
+                        <input type="radio" name="jenis kelamin" value="laki-laki" checked>laki-laki
+                    </label>
+
+                    <label class="radio-label">
+                        <input type="radio" name="jenis kelamin" value="perempuan" checked>perempuan
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">pesan    :</label>
+                    <textarea name="pesan" id="pesan" placeholder="pesan"></textarea>
+                </div>
+                <button type="submit">submit</button>
+            </form>
+
+            <div class="form-output">
+               
+                <p>Nama : <span id="outputNama">Reja muhamad julpikar</span></p>
+                <p>tanggal lahir : <span id="outputTglLahir">21/05/2000</span></p>
+                <p>jenis kelamin : <span id="outputjeniskelamin">laki-laki</span></p>
+                <p>pesan : <span id="outputpesan">sekali berkata tidak, selamanya kau kalah.</span></p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <p>Created by Rejamuhamadjulpikar</p>
+    </footer>
+    <script src="/Js/script.js"></script>
+</body>
+</html>
